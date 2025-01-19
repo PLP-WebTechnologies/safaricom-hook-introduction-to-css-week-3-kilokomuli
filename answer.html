@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Basics</title>
+  <!-- Linking the external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Internal CSS */
+    h1 {
+      font-size: 24px;
+    }
+    .highlight-section {
+      background-color: lightblue;
+    }
+    #unique-section {
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Part 1: Selectors -->
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+  <div class="highlight-section">This is a styled section using a class selector.</div>
+  <div id="unique-section">This is a styled section using an ID selector.</div>
+
+  <!-- Part 2: Inline CSS -->
+  <p style="color: red;">This paragraph is styled using inline CSS.</p>
+
+  <!-- Part 3: Card Component -->
+  <div class="card">
+    <h2>Card Title</h2>
+    <p>This is a simple card component with padding, margin, and a light background.</p>
+  </div>
+</body>
+</html>

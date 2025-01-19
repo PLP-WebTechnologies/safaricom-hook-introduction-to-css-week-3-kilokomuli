@@ -1,0 +1,39 @@
+/* Part 2: External CSS */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:hover {
+    color: darkblue;
+    text-decoration: underline;
+  }
+  
+  /* Part 3: Basic Styling */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
